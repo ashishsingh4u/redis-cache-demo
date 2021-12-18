@@ -1,0 +1,17 @@
+package com.techienotes.demoredis.service;
+
+import com.techienotes.demoredis.model.User;
+
+import java.util.List;
+
+public interface UserService {
+    public User getUser(long id);
+
+    public List<User> getAll();
+
+    public void delete(long id);
+
+    public User update(User user);
+
+    public User create(User user);
+}
