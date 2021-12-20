@@ -5,13 +5,13 @@ import com.techienotes.demoredis.model.User;
 import java.util.List;
 
 public interface UserService {
-    public User getUser(long id);
+    User getUser(long id);
 
-    public List<User> getAll();
+    List<User> getAll();
 
-    public void delete(long id);
+    void delete(long id);
 
-    public User update(User user);
+    User update(User user);
 
-    public User create(User user);
+    User create(User user);
 }
